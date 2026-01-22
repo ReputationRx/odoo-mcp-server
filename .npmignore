@@ -1,0 +1,54 @@
+# Source files (only include dist/)
+src/
+*.ts
+!*.d.ts
+tsconfig.json
+
+# Development files
+.eslintrc.json
+.prettierrc
+.gitignore
+.dockerignore
+
+# Development dependencies
+node_modules/
+.vscode/
+.idea/
+
+# Logs and data
+logs/
+data/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist-package/
+*.tar.gz
+*.zip
+
+# Documentation (keep only essential)
+CHANGELOG.md
+PROJECT_SUMMARY.md
+ODOO19_SUPPORT.md
+CAPABILITIES.md
+
+# Test files
+test/
+tests/
+*.test.ts
+*.spec.ts
+__tests__/
+coverage/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# OS files
+.DS_Store
+Thumbs.db
